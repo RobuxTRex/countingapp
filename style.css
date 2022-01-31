@@ -1,7 +1,36 @@
 body {
-    background-color: aqua;
+    background-image: linear-gradient(to right, red, yellow);
 }
 
 head {
     background-color: blueviolet;
+}
+
+h1 {
+    color: white;
+    font-size: 80px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+p {
+    color: white;
+    font-size: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: "Lucida Console", "Courier New", monospace;
+    text-align: center;
+}
+
+h3 {
+    color: white;
+    font-size: 60px;
+    text-align: center;
+    border: 5px;
+    border-color: linear-gradient(to right, black , white)
 }
