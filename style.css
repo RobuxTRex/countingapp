@@ -32,5 +32,30 @@ h3 {
     font-size: 60px;
     text-align: center;
     border: 5px;
-    border-color: linear-gradient(to right, black , white)
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.topnav {
+    background-color: white;
+    overflow: hidden;
+}
+
+.topnav a {
+    float: middle;
+    color: #000000;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 25px;
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+
+.topnav a.hover {
+    background-color: aqua;
+    color: aqua;
+}
+
+.topnav a.active {
+    background-color: blueviolet;
+    color: blueviolet;
 }
