@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+    <div class="topnav">
+        <a class="active" href="file:///C://Program Files (x86)/CountingApp/index.html">Home</a>
+        <a href="https://github.com/RobuxTRex/countingapp/releases">GitHub</a>
+        <a href="C://Program Files (x86)/countingapp/web/about.html">About</a>
+        <a href="C://Program Files (x86)/countingapp/web/errornotfound.html">Feedback</a>
+    </div>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="feedback.css">
+    <link rel="shortcut icon" type="image/png" href="C://Program Files (x86)/countingapp/icon.png"/>
+    <title>Feedback</title>
+</head>
+<body>
+    <main>
+        <h1>Send feedback below!</h1>
+        <form class="contact-form" action="feedbackphp.php" method="post">
+            <input type="text" name="email" placeholder="E-Mail">
+            <input type="title" name="suggestiontitle" placeholder="Enter the subject here...">
+            <textarea name="message" placeholder="Enter your feedback here..."></textarea>
+            <button type="Submit" name="submit">Send Feedback</button>
+        </form>
+    </main>
+</body>
+</html>

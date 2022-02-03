@@ -31,6 +31,40 @@ h3 {
     font-family: "Lucida Console", "Courier New", monospace;
 }
 
+button {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 40px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+input {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 40px;
+    width: 50%;
+    border-radius: 25px;
+}
+
+textarea {
+    background-color: blue;
+    color: white;
+    font-size: 30px;
+    text-align: left;
+    font-family: "Lucida Console", "Courier New", monospace;
+    height: 120px;
+    width: 50%;
+    border-radius: 25px;
+    align-self: center;
+}
+
 .topnav a {
     float: middle;
     color: white;
