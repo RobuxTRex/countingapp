@@ -13,5 +13,5 @@ Today I'll be showing you how you can install it.
 
 4. Copy the decompressed folder in the file location you unzipped it at (CTRL+C to COPY), go to your x86 Program Files folder and paste the folder there (CTRL+V to PASTE). Ensure the folder is called 'countingapp' in all lowercase and is located at C://Program Files (x86)/
 
-5. I am currently unsure on how you can run the file in a Desktop window, but you can double click on index.html.
+5. I am currently unsure on how you can run the file in a Desktop window, but you can double click on index.html to open the program in the web browser.
 
